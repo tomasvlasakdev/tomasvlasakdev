@@ -1,16 +1,28 @@
-## Hi there 👋
+# 👋 Hi, I'm Tomáš Vlasák
 
-<!--
-**tomasvlasakdev/tomasvlasakdev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 **Student, builder, and future founder.**  
+I’m building projects in **Python, AI, and finance**, learning how to design systems that scale, and documenting my journey to mastery.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Featured Projects
+
+| Project | Description | Tech |
+|----------|--------------|------|
+| [CryptoBot](https://github.com/tomasvlasakdev/crypto-bot) | Telegram bot for crypto prices, alerts & charts. | Python, aiohttp, SQLite, matplotlib |
+| [SQL Movie Database](https://github.com/tomasvlasakdev/movie-db) | Full Oracle SQL project with ERD, inserts & queries. | SQL, Oracle |
+| [DCF Calculator](https://github.com/tomasvlasakdev/dcf-calculator) | Intrinsic value calculator for long-term investors. | Python, finance |
+| [AI Habit Tracker](https://github.com/tomasvlasakdev/habit-ai) | Intelligent habit tracking assistant. | Python, AI |
+
+---
+
+## 🧠 About Me
+- 17 years old, passionate about building, learning and investing.
+- Focused on mastering code, systems thinking, and financial independence.
+- Belief: *“Execution beats talent — every time.”*
+
+---
+
+## 📫 Connect with me
+- GitHub: [@tomasvlasakdev](https://github.com/tomasvlasakdev)
+- Telegram: @tomasvlasakdev
