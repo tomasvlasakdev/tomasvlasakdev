@@ -9,7 +9,7 @@ I’m building projects in **Python, AI, and finance**, learning how to design s
 
 | Project | Description | Tech |
 |----------|--------------|------|
-| [CryptoBot](https://github.com/tomasvlasakdev/crypto-bot) | Telegram bot for crypto prices, alerts & charts. | Python, aiohttp, SQLite, matplotlib |
+| [CoinTrack](https://github.com/tomasvlasakdev/cointrack) | Telegram bot for crypto prices, alerts & charts. | Python, aiohttp, SQLite, matplotlib |
 | [SQL Movie Database](https://github.com/tomasvlasakdev/movie-db) | Full Oracle SQL project with ERD, inserts & queries. | SQL, Oracle |
 | [DCF Calculator](https://github.com/tomasvlasakdev/dcf-calculator) | Intrinsic value calculator for long-term investors. | Python, finance |
 | [AI Habit Tracker](https://github.com/tomasvlasakdev/habit-ai) | Intelligent habit tracking assistant. | Python, AI |
