@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Tomáš Vlasák
 
 💻 **Student, builder, and future founder.**  
-I’m building projects in **Python, AI, and finance**, learning how to design systems that scale, and documenting my journey to mastery.
+I’m building projects in **Javascript, Python, AI, and finance**, learning how to design systems that scale, and documenting my journey to mastery.
 
 ---
 
