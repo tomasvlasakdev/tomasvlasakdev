@@ -10,9 +10,7 @@ I’m building projects in **Javascript, Python, AI, and finance**, learning how
 | Project | Description | Tech |
 |----------|--------------|------|
 | [CoinTrack](https://github.com/tomasvlasakdev/cointrack) | Telegram bot for crypto prices, alerts & charts. | Python, aiohttp, SQLite, matplotlib |
-| [SQL Movie Database](https://github.com/tomasvlasakdev/movie-db) | Full Oracle SQL project with ERD, inserts & queries. | SQL, Oracle |
-| [DCF Calculator](https://github.com/tomasvlasakdev/dcf-calculator) | Intrinsic value calculator for long-term investors. | Python, finance |
-| [AI Habit Tracker](https://github.com/tomasvlasakdev/habit-ai) | Intelligent habit tracking assistant. | Python, AI |
+
 
 ---
 
