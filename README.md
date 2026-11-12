@@ -1,14 +1,14 @@
 # Tomáš Vlasák
 
-Student developer from the Czech Republic. I build full-stack web apps with TypeScript, React and Next.js, and I built the website for my local parish in Čelákovice.
+Student developer from the Czech Republic. I build full-stack web apps with TypeScript, React and Next.js.
 
 <p>
   <a href="https://tomasvlasakdev.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-1E6B4F?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
   <a href="https://t.me/tomasvlasakdev"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"></a>
-  <!-- To add more links, remove the comment markers around a line and fill in your details:
-  <a href="mailto:YOUR_EMAIL"><img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="mailto:vlasaktomas.cz@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://www.instagram.com/the_tvlasak"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-FF0069?style=for-the-badge&logo=instagram&logoColor=white"></a>
+  <!-- LinkedIn: remove the comment markers and add your profile URL.
   <a href="https://www.linkedin.com/in/YOUR_PROFILE"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge"></a>
-  <a href="https://www.instagram.com/YOUR_HANDLE"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-FF0069?style=for-the-badge&logo=instagram&logoColor=white"></a>
   -->
 </p>
 
@@ -25,7 +25,13 @@ Student developer from the Czech Republic. I build full-stack web apps with Type
   <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white">
   <img alt="Vite" src="https://img.shields.io/badge/Vite-9135FF?style=for-the-badge&logo=vite&logoColor=white">
+  <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-0F172A?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4">
+</p>
+<p>
   <img alt="Supabase" src="https://img.shields.io/badge/Supabase-1C1C1C?style=for-the-badge&logo=supabase&logoColor=3ECF8E">
+  <img alt="Stripe" src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white">
+  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
+  <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white">
 </p>
 <p>
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
