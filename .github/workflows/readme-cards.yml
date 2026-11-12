@@ -12,8 +12,8 @@ permissions:
   contents: write
 
 env:
-  LIGHT: hide_border=true&bg_color=00000000&title_color=1e6b4f&icon_color=1e6b4f&text_color=17201b
-  DARK: hide_border=true&bg_color=00000000&title_color=7fd1aa&icon_color=7fd1aa&text_color=e4e9e4
+  LIGHT: disable_animations=true&hide_border=true&bg_color=00000000&title_color=1e6b4f&icon_color=1e6b4f&text_color=17201b
+  DARK: disable_animations=true&hide_border=true&bg_color=00000000&title_color=7fd1aa&icon_color=7fd1aa&text_color=e4e9e4
 
 jobs:
   cards:
