@@ -43,8 +43,9 @@ jobs:
 
       - name: Commit cards
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Commit as the profile owner, not as github-actions[bot].
+          git config user.name "Tomáš Vlasák"
+          git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
           git add profile/*.svg
           git commit -m "Update README stats cards" || exit 0
           git push
