@@ -8,6 +8,8 @@ on:
       - ".github/workflows/readme-cards.yml"
   workflow_dispatch:
 
+# STATS_TOKEN: a PAT with read access to private repos, so private commits and PRs
+# count. Without it the job falls back to GITHUB_TOKEN (public repos only).
 permissions:
   contents: write
 
@@ -25,18 +27,18 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&include_all_commits=true&${{ env.LIGHT }}
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide=stars,issues,contribs&show=reviews,prs_merged&${{ env.LIGHT }}
           path: profile/stats-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
       - name: Stats card (dark)
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&include_all_commits=true&${{ env.DARK }}
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide=stars,issues,contribs&show=reviews,prs_merged&${{ env.DARK }}
           path: profile/stats-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
       - name: Top languages card (light)
@@ -45,7 +47,7 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&${{ env.LIGHT }}
           path: profile/top-langs-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
       - name: Top languages card (dark)
@@ -54,7 +56,7 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&${{ env.DARK }}
           path: profile/top-langs-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
       - name: Commit cards
