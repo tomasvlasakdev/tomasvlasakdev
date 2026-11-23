@@ -14,8 +14,8 @@ permissions:
   contents: write
 
 env:
-  LIGHT: disable_animations=true&hide_border=true&bg_color=00000000&title_color=1e6b4f&icon_color=1e6b4f&text_color=17201b
-  DARK: disable_animations=true&hide_border=true&bg_color=00000000&title_color=7fd1aa&icon_color=7fd1aa&text_color=e4e9e4
+  # Black background in both GitHub themes, so the colours keep their contrast.
+  THEME: disable_animations=true&hide_border=true&bg_color=000000&title_color=7fd1aa&icon_color=7fd1aa&text_color=e4e9e4
 
 jobs:
   cards:
@@ -23,39 +23,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Stats card (light)
+      - name: Stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide=stars,issues,contribs&show=reviews,prs_merged&${{ env.LIGHT }}
-          path: profile/stats-light.svg
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide=stars,issues,contribs&show=reviews,prs_merged&${{ env.THEME }}
+          path: profile/stats.svg
           token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
-      - name: Stats card (dark)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide=stars,issues,contribs&show=reviews,prs_merged&${{ env.DARK }}
-          path: profile/stats-dark.svg
-          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
-          fail_on_error: true
-
-      - name: Top languages card (light)
+      - name: Top languages card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&${{ env.LIGHT }}
-          path: profile/top-langs-light.svg
-          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
-          fail_on_error: true
-
-      - name: Top languages card (dark)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&${{ env.DARK }}
-          path: profile/top-langs-dark.svg
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&${{ env.THEME }}
+          path: profile/top-langs.svg
           token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
