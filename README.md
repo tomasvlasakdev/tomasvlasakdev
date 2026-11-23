@@ -42,13 +42,11 @@ Student developer from the Czech Republic. I build full-stack web apps with Type
 
 ### GitHub stats
 
-<!-- Stats card (stars, commits, PRs). It updates daily; add it back once the numbers grow:
+<p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tomasvlasakdev/tomasvlasakdev/main/profile/stats-dark.svg">
     <img alt="GitHub stats for tomasvlasakdev" height="165" src="https://raw.githubusercontent.com/tomasvlasakdev/tomasvlasakdev/main/profile/stats-light.svg">
   </picture>
--->
-<p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tomasvlasakdev/tomasvlasakdev/main/profile/top-langs-dark.svg">
     <img alt="Most used languages" height="165" src="https://raw.githubusercontent.com/tomasvlasakdev/tomasvlasakdev/main/profile/top-langs-light.svg">
